@@ -13,6 +13,7 @@ sources = ["romi/src/main.cpp"]
 generation_data = "gen"
 depends = [
     "wpilib_core", "wpilibc_interfaces", "wpilibc",
+    "wpimath_cpp", "wpimath_geometry",
     "wpiHal", "wpiutil", "ntcore",
 ]
 
