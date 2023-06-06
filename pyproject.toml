@@ -38,7 +38,7 @@ RomiMotor = "frc/romi/RomiMotor.h"
 [tool.robotpy-build.wrappers."romi".maven_lib_download]
 artifact_id = "romi-vendordep-cpp"
 group_id = "edu.wpi.first.romi"
-repo_url = "https://frcmaven.wpi.edu/artifactory/release"
+repo_url = "https://frcmaven.wpi.edu/artifactory/development"
 version = "2023.4.2"
 libs = ["Romi"]
 
